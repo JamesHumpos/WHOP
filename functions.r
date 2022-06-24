@@ -1027,99 +1027,94 @@ dm_color <- function(palette_id, what) {
   color_scheme[[palette_id]][[what]]
 }
 
-
-.onLoad <- function(libname, pkgname) {
-  
-  # initialize default color scheme
-  dm_set_color_scheme(
-    
-    dm_color_scheme(
-      default = dm_palette(
-        line_color = "#555555",
-        header_bgcolor = "#EFEBDD",
-        header_font = "#000000",
-        bgcolor = "#FFFFFF"
-      ),
-      accent1nb = dm_palette(
-        header_bgcolor = "#5B9BD5",
-        header_font = "#FFFFFF",
-        bgcolor = "#D6E1F1"
-      ),
-      accent2nb = dm_palette(
-        header_bgcolor = "#ED7D31",
-        header_font = "#FFFFFF",
-        bgcolor = "#F9DBD2"
-      ),
-      accent3nb = dm_palette(
-        header_bgcolor = "#FFC000",
-        header_font = "#FFFFFF",
-        bgcolor = "#FFEAD0"
-      ),
-      accent4nb = dm_palette(
-        header_bgcolor = "#70AD47",
-        header_font = "#FFFFFF",
-        bgcolor = "#D9E6D4"
-      ),
-      accent5nb = dm_palette(
-        header_bgcolor = "#4472C4",
-        header_font = "#FFFFFF",
-        bgcolor = "#D4D9EC"
-      ),
-      accent6nb = dm_palette(
-        header_bgcolor = "#A5A5A5",
-        header_font = "#FFFFFF",
-        bgcolor = "#E4E4E4"
-      ),
-      accent7nb = dm_palette(
-        header_bgcolor = "#787878",
-        header_font = "#FFFFFF",
-        bgcolor = "#D8D8D8"
-      ),
-      accent1 = dm_palette(
-        line_color = "#41719C",
-        header_bgcolor = "#5B9BD5",
-        header_font = "#FFFFFF",
-        bgcolor = "#D6E1F1"
-      ),
-      accent2 = dm_palette(
-        line_color = "#AE5A21",
-        header_bgcolor = "#ED7D31",
-        header_font = "#FFFFFF",
-        bgcolor = "#F9DBD2"
-      ),
-      accent3 = dm_palette(
-        line_color = "#BC8C00",
-        header_bgcolor = "#FFC000",
-        header_font = "#FFFFFF",
-        bgcolor = "#FFEAD0"
-      ),
-      accent4 = dm_palette(
-        line_color = "#507E32",
-        header_bgcolor = "#70AD47",
-        header_font = "#FFFFFF",
-        bgcolor = "#D9E6D4"
-      ),
-      accent5 = dm_palette(
-        line_color = "#2F528F",
-        header_bgcolor = "#4472C4",
-        header_font = "#FFFFFF",
-        bgcolor = "#D4D9EC"
-      ),
-      accent6 = dm_palette(
-        line_color = "#787878",
-        header_bgcolor = "#A5A5A5",
-        header_font = "#FFFFFF",
-        bgcolor = "#E4E4E4"
-      ),
-      accent7 = dm_palette(
-        line_color = "#000000",
-        header_bgcolor = "#787878",
-        header_font = "#FFFFFF",
-        bgcolor = "#D8D8D8"
-      )
+dm_set_color_scheme(
+  dm_color_scheme(
+    default = dm_palette(
+      line_color = "#555555",
+      header_bgcolor = "#EFEBDD",
+      header_font = "#000000",
+      bgcolor = "#FFFFFF"
+    ),
+    accent1nb = dm_palette(
+      header_bgcolor = "#5B9BD5",
+      header_font = "#FFFFFF",
+      bgcolor = "#D6E1F1"
+    ),
+    accent2nb = dm_palette(
+      header_bgcolor = "#ED7D31",
+      header_font = "#FFFFFF",
+      bgcolor = "#F9DBD2"
+    ),
+    accent3nb = dm_palette(
+      header_bgcolor = "#FFC000",
+      header_font = "#FFFFFF",
+      bgcolor = "#FFEAD0"
+    ),
+    accent4nb = dm_palette(
+      header_bgcolor = "#70AD47",
+      header_font = "#FFFFFF",
+      bgcolor = "#D9E6D4"
+    ),
+    accent5nb = dm_palette(
+      header_bgcolor = "#4472C4",
+      header_font = "#FFFFFF",
+      bgcolor = "#D4D9EC"
+    ),
+    accent6nb = dm_palette(
+      header_bgcolor = "#A5A5A5",
+      header_font = "#FFFFFF",
+      bgcolor = "#E4E4E4"
+    ),
+    accent7nb = dm_palette(
+      header_bgcolor = "#787878",
+      header_font = "#FFFFFF",
+      bgcolor = "#D8D8D8"
+    ),
+    accent1 = dm_palette(
+      line_color = "#41719C",
+      header_bgcolor = "#5B9BD5",
+      header_font = "#FFFFFF",
+      bgcolor = "#D6E1F1"
+    ),
+    accent2 = dm_palette(
+      line_color = "#AE5A21",
+      header_bgcolor = "#ED7D31",
+      header_font = "#FFFFFF",
+      bgcolor = "#F9DBD2"
+    ),
+    accent3 = dm_palette(
+      line_color = "#BC8C00",
+      header_bgcolor = "#FFC000",
+      header_font = "#FFFFFF",
+      bgcolor = "#FFEAD0"
+    ),
+    accent4 = dm_palette(
+      line_color = "#507E32",
+      header_bgcolor = "#70AD47",
+      header_font = "#FFFFFF",
+      bgcolor = "#D9E6D4"
+    ),
+    accent5 = dm_palette(
+      line_color = "#2F528F",
+      header_bgcolor = "#4472C4",
+      header_font = "#FFFFFF",
+      bgcolor = "#D4D9EC"
+    ),
+    accent6 = dm_palette(
+      line_color = "#787878",
+      header_bgcolor = "#A5A5A5",
+      header_font = "#FFFFFF",
+      bgcolor = "#E4E4E4"
+    ),
+    accent7 = dm_palette(
+      line_color = "#000000",
+      header_bgcolor = "#787878",
+      header_font = "#FFFFFF",
+      bgcolor = "#D8D8D8"
     )
   )
-}
+)
+
 
 
 
